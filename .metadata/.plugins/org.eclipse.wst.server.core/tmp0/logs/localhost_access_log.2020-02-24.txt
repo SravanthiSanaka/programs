@@ -1,0 +1,14 @@
+127.0.0.1 - - [24/Feb/2020:16:41:38 +0530] "GET / HTTP/1.1" 404 709
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:41:39 +0530] "GET /Jspexamples/login.html HTTP/1.1" 200 384
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:43:53 +0530] "GET /Jspexamples/MovieIndex.jsp HTTP/1.1" 200 439
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:44:03 +0530] "GET /Jspexamples/Page.jsp?uname=sravs&age=21 HTTP/1.1" 200 329
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:45:45 +0530] "GET /Jspexamples/MovieIndex.jsp HTTP/1.1" 200 439
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:45:53 +0530] "GET /Jspexamples/Page.jsp?uname=sravs&age=21 HTTP/1.1" 200 334
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:46:21 +0530] "GET /Jspexamples/MovieIndex.jsp HTTP/1.1" 200 439
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:46:33 +0530] "GET /Jspexamples/MovieIndex.jsp HTTP/1.1" 200 439
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:16:46:58 +0530] "GET /Jspexamples/Page.jsp?uname=Sravanthi&age=22 HTTP/1.1" 200 338
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:17:57:40 +0530] "GET /Jspexamples/MovieIndex.jsp HTTP/1.1" 200 439
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:17:57:49 +0530] "GET /Jspexamples/Page.jsp?uname=swapna&age=60 HTTP/1.1" 200 335
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:17:58:07 +0530] "GET /Jspexamples/Page.jsp?uname=swapna&age=62 HTTP/1.1" 200 335
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:17:58:28 +0530] "GET /Jspexamples/Page.jsp?uname=swapna&age=66 HTTP/1.1" 200 334
+0:0:0:0:0:0:0:1 - - [24/Feb/2020:17:59:05 +0530] "GET /Jspexamples/Page.jsp?uname=sarala&age=6 HTTP/1.1" 200 333

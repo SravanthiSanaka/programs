@@ -1,0 +1,21 @@
+
+
+Login.html
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="http://localhost:8082/Training/LoginValidate.jsp">
+<table border="1">
+<tr> Enter UserId <input type="text" value="id" /> </tr>
+<tr> Enter Password <input type="password" value="pass" /> </tr>
+<tr> <input type="submit" value="login" /> </tr>
+</table>
+</form>
+
+</body>
+</html>

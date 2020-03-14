@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<STYLE>
+body {
+background-color:#FFAACC;
+}
+h1{
+color:#770080;
+font-family:Courier New;
+font-style:italic;
+text-align:center;
+}
+</STYLE>
+</head>
+<body>
+<h1> College Training Feedback Form</h1>
+<form onsubmit="return caluclatefeedbackRating()">
+<center>
+<label> Participant Name </label>     
+ <input type="text" name="participantName" placeholder="enter your  name" required><br>
+ <label> College Name</label>
+ <input type="text" name="collegeName" required><br>
+ <label>Participant Address</label>
+ <textarea name="participantAddress" rows="5" columns="20" required></textarea><br>
+ <label> Gender </label>
+ <input type="radio" name="gender" value="male">male<input type="radio" name="gender" value="female">female<br></b>
+ <label> Email ID</label>
+ <input type="email" name="email" required><br>
+ <label> Mobile Number </label>
+ <input type="tel" name="Mobile Number" required><br>
+ <label>Trainer’s Name </label>
+ <input type="text" name="trainername" id="tname" required><br>
+ <label> Course Name </label>
+ <input type="text" name="coursename" required><br>
+ <label>Course Completion date</label>
+ <input type="date" name="date" required><br>
+ <label>Trainers Feedback</label>
+ <input type="text" name="trainerFeedback" list="feedback" id="fb" autocomplete"on">
+ <datalist id="feedback">
+ <option> excellent</option>
+ <option> very good</option>
+ <option>good</option>
+ <option> average</option>
+ <option>below average</option>
+ </datalist><br>
+
+ <input type="submit" value="submitfeedback">
+
+ <input type="reset" value="clear">
+ 
+</center>
+</form>
+<div id="result">
+</div>
+<script type="text/javascript">
+ function caluclatefeedbackRating()
+ {
+	 var feedback=document.getElementById("fb").value;
+	 var trainer=document.getElementById("tname").value;
+	 var feedbackrate="";
+	 if(feedback=="excellent")
+		 {
+		 feedbackrate=5;
+		 }
+	 else if(feedback=="very good")
+		 {
+		 feedbackrate=4;
+		 }
+	 else if(feedback=="good")
+	 {
+	 feedbackrate=3;
+	 }
+	 else if(feedback=="average")
+	 {
+	 feedbackrate=2;
+	 }
+	 else if(feedback=="below average")
+	 {
+	 feedbackrate=1;
+	 }
+	
+	document.getElementById("result").innerHtml="feedback rating of "+trainer+"is"+feedbackrate+;
+	 return false;
+ }
+</script>
+</body>
+</html>

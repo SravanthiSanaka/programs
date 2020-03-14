@@ -1,0 +1,19 @@
+package examples;
+
+public class FirstDemo extends FirstInter.One implements InnerDemo.Two{
+	public void greater(int e,int f)
+	{
+		int h;
+		h=(e>f)?e:f;
+		System.out.println("The greatest number is"+h);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		FirstDemo obj=new FirstDemo();
+		obj.display();
+		obj.greater(11, 33);
+
+	}
+
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="FinalAssesment">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="websocket-api.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/websocket-api.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-websocket.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-websocket.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-util.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-util.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-coyote.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-coyote.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ecj-4.6.3.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/ecj-4.6.3.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="servlet-api.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/servlet-api.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="catalina-ha.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-ha.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasper-el.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jasper-el.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-i18n-fr.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-i18n-fr.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="catalina-storeconfig.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/catalina-storeconfig.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jasper.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jasper.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-jni.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-jni.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jsp-api.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/jsp-api.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="tomcat-jdbc.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Program Files/Apache Software Foundation/Tomcat 8.5/lib/tomcat-jdbc.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="FinalAssesment"/>
+        <property name="java-output-path" value="/FinalAssesment/build/classes"/>
+    </wb-module>
+</project-modules>
